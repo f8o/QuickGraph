@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2018.3/system/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/.Rider2018.3/system/resharper-host/local/Transient/ReSharperHost/v183/SolutionCaches/_QuickGraph.1448780714.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/xunit.runner.visualstudio/2.4.0/build/netcoreapp1.0/xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="QuickGraph.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="src/QuickGraph" t="IncludeRecursive">
+        <e p="AdjacencyGraph.cs" t="Include" />
+        <e p="Algorithms" t="Include">
+          <e p="AlgorithmBase.cs" t="Include" />
+          <e p="AlgorithmEventHandler.cs" t="Include" />
+          <e p="AlgorithmExtensions.cs" t="Include" />
+          <e p="AssigmentProblem" t="Include">
+            <e p="HungarianAlgorithm.cs" t="Include" />
+            <e p="HungarianIteration.cs" t="Include" />
+          </e>
+          <e p="CentralityApproximationAlgorithm.cs" t="Include" />
+          <e p="Cliques" t="Include">
+            <e p="BronKerboshMaximumCliqueAlgorithm.cs" t="Include" />
+            <e p="MaximumCliqueAlgorithmBase.cs" t="Include" />
+            <e p="ncliques.pdf" t="Include" />
+          </e>
+          <e p="ComputationState.cs" t="Include" />
+          <e p="Condensation" t="Include">
+            <e p="CondensationGraphAlgorithm.cs" t="Include" />
+            <e p="CondensedEdge.cs" t="Include" />
+            <e p="EdgeMergeCondensationGraphAlgorithm.cs" t="Include" />
+            <e p="MergedEdge.cs" t="Include" />
+          </e>
+          <e p="ConnectedComponents" t="Include">
+            <e p="ConnectedComponentsAlgorithm.cs" t="Include" />
+            <e p="IncrementalConnectedComponentsAlgorithm.cs" t="Include" />
+            <e p="StronglyConnectedComponentAlgorithm.cs" t="Include" />
+            <e p="WeaklyConnectedComponentsAlgorithm.cs" t="Include" />
+          </e>
+          <e p="Contracts" t="Include">
+            <e p="IAlgorithmContract.cs" t="Include" />
+            <e p="IComputationContract.cs" t="Include" />
+          </e>
+          <e p="DistanceRelaxers.cs" t="Include" />
+          <e p="EulerianTrailAlgorithm.cs" t="Include" />
+          <e p="Exploration" t="Include">
+            <e p="CloneableVertexGraphExplorerAlgorithm.cs" t="Include" />
+            <e p="ITransitionFactory.cs" t="Include" />
+            <e p="TransitionFactoryImplicitGraph.cs" t="Include" />
+          </e>
+          <e p="GraphPartition" t="Include">
+            <e p="KernighanLinAlgoritm.cs" t="Include" />
+            <e p="Partition.cs" t="Include" />
+          </e>
+          <e p="IAlgorithm.cs" t="Include" />
+          <e p="IComputation.cs" t="Include" />
+          <e p="IConnectedComponentAlgorithm.cs" t="Include" />
+          <e p="IDistanceRecorderAlgorithm.cs" t="Include" />
+          <e p="IDistanceRelaxer.cs" t="Include" />
+          <e p="IEdgeColorizerAlgorithm.cs" t="Include" />
+          <e p="IEdgePredecessorRecorderAlgorithm.cs" t="Include" />
+          <e p="IEndPathEdgeRecorderAlgorithm.cs" t="Include" />
+          <e p="ITreeBuilderAlgorithm.cs" t="Include" />
+          <e p="IUndirectedTreeBuilderAlgorithm.cs" t="Include" />
+          <e p="IUndirectedVertexPredecessorRecorderAlgorithm.cs" t="Include" />
+          <e p="IVertexColorizerAlgorithm.cs" t="Include" />
+          <e p="IVertexPredecessorRecorderAlgorithm.cs" t="Include" />
+          <e p="IVertexTimeStamperAlgorithm.cs" t="Include" />
+          <e p="IsEulerianGraphAlgorithm.cs" t="Include" />
+          <e p="IsHamiltonianGraphAlgorithm.cs" t="Include" />
+          <e p="LengauerTarjanDominatorAlgorithm.cs" t="Include" />
+          <e p="MaximumBipartiteMatchingAlgorithm.cs" t="Include" />
+          <e p="MaximumFlow" t="Include">
+            <e p="AllVerticesGraphAugmentorAlgorithm.cs" t="Include" />
+            <e p="BipartiteToMaximumFlowGraphAugmentorAlgorithm.cs" t="Include" />
+            <e p="EdmondsKarpMaximumFlowAlgorithm.cs" t="Include" />
+            <e p="GraphAugmentorAlgorithmBase.cs" t="Include" />
+            <e p="GraphBalancingAlgorithm.cs" t="Include" />
+            <e p="MaximumFlowAlgorithmBase.cs" t="Include" />
+            <e p="MultiSourceSinkGraphAugmentorAlgorithm.cs" t="Include" />
+            <e p="ReverseEdgeAugmentorAlgorithm.cs" t="Include" />
+          </e>
+          <e p="MinimumSpanningTree" t="Include">
+            <e p="IMinimumSpanningTreeAlgorithm.cs" t="Include" />
+            <e p="KruskalMinimumSpanningTreeAlgorithm.cs" t="Include" />
+            <e p="PrimMinimumSpanningTreeAlgorithm.cs" t="Include" />
+          </e>
+          <e p="Observers" t="Include">
+            <e p="Contracts" t="Include">
+              <e p="IObserverContract.cs" t="Include" />
+            </e>
+            <e p="DisposableAction.cs" t="Include" />
+            <e p="EdgePredecessorRecorderObserver.cs" t="Include" />
+            <e p="EdgeRecorderObserver.cs" t="Include" />
+            <e p="IObserver.cs" t="Include" />
+            <e p="UndirectedVertexDistanceRecorderObserver.cs" t="Include" />
+            <e p="UndirectedVertexPredecessorRecorderObserver.cs" t="Include" />
+            <e p="VertexDistanceRecorderObserver.cs" t="Include" />
+            <e p="VertexPredecessorPathRecorderObserver.cs" t="Include" />
+            <e p="VertexPredecessorRecorderObserver.cs" t="Include" />
+            <e p="VertexRecorderObserver.cs" t="Include" />
+            <e p="VertexTimeStamperObserver.cs" t="Include" />
+          </e>
+          <e p="PageRankAlgorithm.cs" t="Include" />
+          <e p="RandomGraphFactory.cs" t="Include" />
+          <e p="RandomWalks" t="Include">
+            <e p="CyclePoppingRandomTreeAlgorithm.cs" t="Include" />
+            <e p="IEdgeChain.cs" t="Include" />
+            <e p="IMarkovEdgeChain.cs" t="Include" />
+            <e p="MarkovEdgeChainBase.cs" t="Include" />
+            <e p="NormalizedMarkovEdgeChain.cs" t="Include" />
+            <e p="RandomWalkAlgorithm.cs" t="Include" />
+            <e p="RoundRobinEdgeChain.cs" t="Include" />
+            <e p="VanishingWeightedMarkovEdgeChain.cs" t="Include" />
+            <e p="WeightedMarkedEdgeChain.cs" t="Include" />
+            <e p="WeightedMarkovEdgeChainBase.cs" t="Include" />
+          </e>
+          <e p="RankedShortestPath" t="Include">
+            <e p="HoffmanPavleyRankedShortestPathAlgorithm.cs" t="Include" />
+            <e p="RankedShortestPathAlgorithmBase.cs" t="Include" />
+          </e>
+          <e p="RootedAlgorithmBase.cs" t="Include" />
+          <e p="RootedSearchAlgorithmBase.cs" t="Include" />
+          <e p="Search" t="Include">
+            <e p="BestFirstFrontierSearchAlgorithm.cs" t="Include" />
+            <e p="BidirectionalDepthFirstSearchAlgorithm.cs" t="Include" />
+            <e p="BreadthFirstSearchAlgorithm.cs" t="Include" />
+            <e p="DepthFirstSearchAlgorithm.cs" t="Include" />
+            <e p="EdgeDepthFirstSearchAlgorithm.cs" t="Include" />
+            <e p="HeightFirstSearchAlgorithm.cs" t="Include" />
+            <e p="ImplicitDepthFirstSearchAlgorithm.cs" t="Include" />
+            <e p="ImplicitEdgeDepthFirstSearchAlgorithm.cs" t="Include" />
+            <e p="UndirectedBreathFirstSearchAlgorithm.cs" t="Include" />
+            <e p="UndirectedDepthFirstSearchAlgorithm.cs" t="Include" />
+            <e p="UndirectedEdgeDepthFirstSearchAlgorithm.cs" t="Include" />
+          </e>
+          <e p="Services" t="Include">
+            <e p="IAlgorithmComponent.cs" t="Include" />
+            <e p="IAlgorithmServices.cs" t="Include" />
+            <e p="ICancelManager.cs" t="Include" />
+            <e p="IService.cs" t="Include" />
+          </e>
+          <e p="ShortestPath" t="Include">
+            <e p="AStartShortestPathAlgorithm.cs" t="Include" />
+            <e p="BellmanFordShortestPathAlgorithm.cs" t="Include" />
+            <e p="DagShortestPathAlgorithm.cs" t="Include" />
+            <e p="DijkstraShortestPathAlgorithm.cs" t="Include" />
+            <e p="FloydWarshallAllShortestPathAlgorithm.cs" t="Include" />
+            <e p="ShortestPathAlgorithmBase.cs" t="Include" />
+            <e p="UndirectedDijkstraShortestPathAlgorithm.cs" t="Include" />
+            <e p="UndirectedShortestPathAlgorithmBase.cs" t="Include" />
+            <e p="Yen" t="Include">
+              <e p="YenShortestPathsAlgorithm.cs" t="Include" />
+            </e>
+          </e>
+          <e p="TSP" t="Include">
+            <e p="TSP.cs" t="Include" />
+            <e p="Task.cs" t="Include" />
+            <e p="TasksManager.cs" t="Include" />
+          </e>
+          <e p="TarjanOfflineLeastCommonAncestorAlgorithm.cs" t="Include" />
+          <e p="TopologicalSort" t="Include">
+            <e p="SourceFirstBidirectionalTopologicalSortAlgorithm.cs" t="Include" />
+            <e p="SourceFirstTopologicalSortAlgorithm.cs" t="Include" />
+            <e p="TopologicalSortAlgorithm.cs" t="Include" />
+            <e p="UndirectedFirstTopologicalSortAlgorithm.cs" t="Include" />
+            <e p="UndirectedTopologicalSortAlgorithm.cs" t="Include" />
+          </e>
+          <e p="TransitiveAlgorithmHelper.cs" t="Include" />
+          <e p="TransitiveClosureAlgorithm.cs" t="Include" />
+          <e p="TransitiveReductionAlgorithm.cs" t="Include" />
+          <e p="VertexColoringProblem" t="Include">
+            <e p="VertexColoringAlgorithm.cs" t="Include" />
+          </e>
+          <e p="VertexCover" t="Include">
+            <e p="MinimumVertexCoverApproxAlgorithm.cs" t="Include" />
+          </e>
+        </e>
+        <e p="App.config" t="Include" />
+        <e p="ArrayAdjacencyGraph.cs" t="Include" />
+        <e p="ArrayBidirectionalGraph.cs" t="Include" />
+        <e p="ArrayUndirectedGraph.cs" t="Include" />
+        <e p="BidirectionAdapterGraph.cs" t="Include" />
+        <e p="BidirectionalGraph.cs" t="Include" />
+        <e p="BidirectionalMatrixGraph.cs" t="Include" />
+        <e p="ClusteredAdjacencyGraph.cs" t="Include" />
+        <e p="Collections" t="Include">
+          <e p="BinaryHeap.cs" t="Include" />
+          <e p="BinaryQueue.cs" t="Include" />
+          <e p="EdgeEdgeDictionary.cs" t="Include" />
+          <e p="EdgeList.cs" t="Include" />
+          <e p="FibonacciHeap.cs" t="Include" />
+          <e p="FibonacciQueue.cs" t="Include" />
+          <e p="ForestDisjointSet.cs" t="Include" />
+          <e p="IDisjointSet.cs" t="Include" />
+          <e p="IEdgeList.cs" t="Include" />
+          <e p="IPriorityQueue.cs" t="Include" />
+          <e p="IQueue.cs" t="Include" />
+          <e p="IVertexEdgeDictionary.cs" t="Include" />
+          <e p="Queue.cs" t="Include" />
+          <e p="SoftHeap.cs" t="Include" />
+          <e p="VertexEdgeDictionary.cs" t="Include" />
+          <e p="VertexList.cs" t="Include" />
+        </e>
+        <e p="CompressedSparseRowGraph.cs" t="Include" />
+        <e p="Contracts" t="Include">
+          <e p="Collections" t="Include">
+            <e p="IDisjointSetContract.cs" t="Include" />
+            <e p="IEdgeListContract.cs" t="Include" />
+            <e p="IVertexEdgeDictionaryContract.cs" t="Include" />
+          </e>
+          <e p="DummyContract.cs" t="Include" />
+          <e p="EnumerableContract.cs" t="Include" />
+          <e p="GraphContract.cs" t="Include" />
+          <e p="IBidirectionalGraphContract.cs" t="Include" />
+          <e p="IBidirectionalIncidenceGraphContract.cs" t="Include" />
+          <e p="ICloneableEdgeContract.cs" t="Include" />
+          <e p="IEdgeContract.cs" t="Include" />
+          <e p="IEdgeListGraphContract.cs" t="Include" />
+          <e p="IEdgeSetContract.cs" t="Include" />
+          <e p="IGraphContract.cs" t="Include" />
+          <e p="IImplicitGraphContract.cs" t="Include" />
+          <e p="IImplicitUndirectedGraphContract.cs" t="Include" />
+          <e p="IImplicitVertexSetContract.cs" t="Include" />
+          <e p="IIncidenceGraphContract.cs" t="Include" />
+          <e p="IMutableBidirectionalGraphContract.cs" t="Include" />
+          <e p="IMutableEdgeListGraphContract.cs" t="Include" />
+          <e p="IMutableGraphContract.cs" t="Include" />
+          <e p="IMutableIncidenceGraphContract.cs" t="Include" />
+          <e p="IMutableUndirectedGraphContract.cs" t="Include" />
+          <e p="IMutableVertexAndEdgeSetContract.cs" t="Include" />
+          <e p="IMutableVertexListGraphContract.cs" t="Include" />
+          <e p="IMutableVertexSetContract.cs" t="Include" />
+          <e p="ITermEdgeContract.cs" t="Include" />
+          <e p="IUndirectedEdgeContract.cs" t="Include" />
+          <e p="IUndirectedGraphContract.cs" t="Include" />
+          <e p="IVertexSetContract.cs" t="Include" />
+        </e>
+        <e p="CreateEdgeDelegate.cs" t="Include" />
+        <e p="CreateVertexDelegate.cs" t="Include" />
+        <e p="DelegateBidirectionalIncidenceGraph.cs" t="Include" />
+        <e p="DelegateImplicitGraph.cs" t="Include" />
+        <e p="DelegateImplicitUndirectedGraph.cs" t="Include" />
+        <e p="DelegateIncidenceGraph.cs" t="Include" />
+        <e p="DelegateUndirectedGraph.cs" t="Include" />
+        <e p="DelegateVertexAndEdgeListGraph.cs" t="Include" />
+        <e p="Diagrams" t="Include">
+          <e p="TraversalInterfaces.cd" t="Include" />
+        </e>
+        <e p="DotParserAdapter.cs" t="Include" />
+        <e p="Edge.cs" t="Include" />
+        <e p="EdgeEdgeEventArgs.cs" t="Include" />
+        <e p="EdgeEventArgs.cs" t="Include" />
+        <e p="EdgeExtensions.cs" t="Include" />
+        <e p="EdgeFactory.cs" t="Include" />
+        <e p="EdgeIdentity.cs" t="Include" />
+        <e p="EdgeListGraph.cs" t="Include" />
+        <e p="EdgePredicate.cs" t="Include" />
+        <e p="Enumerable.cs" t="Include" />
+        <e p="EqualityExtensions.cs" t="Include" />
+        <e p="EquatableEdge.cs" t="Include" />
+        <e p="EquatableTermEdge.cs" t="Include" />
+        <e p="EquateGraphs.cs" t="Include" />
+        <e p="FuncDelegates.cs" t="Include" />
+        <e p="GraphColor.cs" t="Include" />
+        <e p="GraphExtensions.cs" t="Include" />
+        <e p="HashCodeHelper.cs" t="Include" />
+        <e p="IBidirectionalGraph.cs" t="Include" />
+        <e p="IBidirectionalIncidenceGraph.cs" t="Include" />
+        <e p="ICloneableEdge.cs" t="Include" />
+        <e p="IClusteredGraph.cs" t="Include" />
+        <e p="IEdge.cs" t="Include" />
+        <e p="IEdgeListAndIncidenceGraph.cs" t="Include" />
+        <e p="IEdgeListGraph.cs" t="Include" />
+        <e p="IEdgeSet.cs" t="Include" />
+        <e p="IGraph.cs" t="Include" />
+        <e p="IHierarchy.cs" t="Include" />
+        <e p="IHyperEdge.cs" t="Include" />
+        <e p="IImplicitGraph.cs" t="Include" />
+        <e p="IImplicitUndirectedGraph.cs" t="Include" />
+        <e p="IImplicitVertexSet.cs" t="Include" />
+        <e p="IIncidenceGraph.cs" t="Include" />
+        <e p="IMutableBidirectionalGraph.cs" t="Include" />
+        <e p="IMutableEdgeListGraph.cs" t="Include" />
+        <e p="IMutableGraph.cs" t="Include" />
+        <e p="IMutableIncidenceGraph.cs" t="Include" />
+        <e p="IMutableUndirectedGraph.cs" t="Include" />
+        <e p="IMutableVertexAndEdgeListGraph.cs" t="Include" />
+        <e p="IMutableVertexAndEdgeSet.cs" t="Include" />
+        <e p="IMutableVertexListGraph.cs" t="Include" />
+        <e p="IMutableVertexSet.cs" t="Include" />
+        <e p="ITagged.cs" t="Include" />
+        <e p="ITermBidirectionalGraph.cs" t="Include" />
+        <e p="ITermEdge.cs" t="Include" />
+        <e p="IUndirectedEdge.cs" t="Include" />
+        <e p="IUndirectedGraph.cs" t="Include" />
+        <e p="IVertexAndEdgeListGraph.cs" t="Include" />
+        <e p="IVertexListGraph.cs" t="Include" />
+        <e p="IVertexSet.cs" t="Include" />
+        <e p="IdentifiableEdgeFactory.cs" t="Include" />
+        <e p="IdentifiableVertexFactory.cs" t="Include" />
+        <e p="NegativeCycleGraphException.cs" t="Include" />
+        <e p="NegativeWeightException.cs" t="Include" />
+        <e p="NoPathFoundException.cs" t="Include" />
+        <e p="NonAcyclicGraphException.cs" t="Include" />
+        <e p="NonStronglyConnectedGraphException.cs" t="Include" />
+        <e p="ParallelEdgeNotAllowedException.cs" t="Include" />
+        <e p="Predicates" t="Include">
+          <e p="FilteredBidirectionalGraph.cs" t="Include" />
+          <e p="FilteredEdgeListGraph.cs" t="Include" />
+          <e p="FilteredGraph.cs" t="Include" />
+          <e p="FilteredImplicitGraph.cs" t="Include" />
+          <e p="FilteredImplicitVertexSetGraph.cs" t="Include" />
+          <e p="FilteredIncidenceGraph.cs" t="Include" />
+          <e p="FilteredUndirectedGraph.cs" t="Include" />
+          <e p="FilteredVertexAndEdgeListGraph.cs" t="Include" />
+          <e p="FilteredVertexListGraph.cs" t="Include" />
+          <e p="InDictionaryVertexPredicate.cs" t="Include" />
+          <e p="IsolatedVertexPredicate.cs" t="Include" />
+          <e p="ResidualEdgePrediate.cs" t="Include" />
+          <e p="ReversedResidualEdgePredicate.cs" t="Include" />
+          <e p="SinkVertexPredicate.cs" t="Include" />
+        </e>
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="QuickGraph.csproj" t="IncludeRecursive" />
+        <e p="QuickGraph.csproj.vspscc" t="Include" />
+        <e p="QuickGraphException.cs" t="Include" />
+        <e p="QuickGraphResourceManager.cs" t="Include" />
+        <e p="ReversedBidirectionalListGraph.cs" t="Include" />
+        <e p="SEdge.cs" t="Include" />
+        <e p="SEquatableEdge.cs" t="Include" />
+        <e p="SEquatableUndirectedEdge.cs" t="Include" />
+        <e p="SReversedEdge.cs" t="Include" />
+        <e p="STaggedEdge.cs" t="Include" />
+        <e p="STaggedEquatableEdge.cs" t="Include" />
+        <e p="STaggedUndirectedEdge.cs" t="Include" />
+        <e p="SUndirectedEdge.cs" t="Include" />
+        <e p="TaggedEdge.cs" t="Include" />
+        <e p="TaggedEquatableEdge.cs" t="Include" />
+        <e p="TaggedUndirectedEdge.cs" t="Include" />
+        <e p="TermBidirectionalGraph.cs" t="Include" />
+        <e p="TermEdge.cs" t="Include" />
+        <e p="TermEdgeList.cs" t="Include" />
+        <e p="TryFuncDelegates.cs" t="Include" />
+        <e p="UndirectedBidirectionalGraph.cs" t="Include" />
+        <e p="UndirectedEdge.cs" t="Include" />
+        <e p="UndirectedEdgeEventArgs.cs" t="Include" />
+        <e p="UndirectedGraph.cs" t="Include" />
+        <e p="VertexEventArgs.cs" t="Include" />
+        <e p="VertexFactory.cs" t="Include" />
+        <e p="VertexIdentity.cs" t="Include" />
+        <e p="VertexIndexer.cs" t="Include" />
+        <e p="VertexPredicate.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netstandard2.0" t="Include">
+              <e p="QuickGraph.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="paket.references" t="Include" />
+        <e p="paket.template" t="Include" />
+        <e p="quickgraph.banner.png" t="Include" />
+        <e p="quickgraph.png" t="Include" />
+        <e p="quickgraph.snk" t="Include" />
+      </e>
+      <e p="tests/QuickGraph.Tests" t="IncludeRecursive">
+        <e p="QuickGraph.Tests.csproj" t="IncludeRecursive" />
+        <e p="ShortestPathTestCase.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp2.2" t="Include">
+              <e p="QuickGraph.Tests.AssemblyInfo.cs" t="Include" />
+              <e p="QuickGraph.Tests.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+    </e>
+  </component>
+</project>

@@ -1,3 +1,11 @@
+### What is going on:
+
+- Forked from YC.QuickGraph.
+- Removed all non core functionality in order to build for netstandard/.netcore.
+- Added one unit test for Dijkstra shortest paths (original unit tests depend on PEX which is .net fx full compat only).
+
+### Original README:
+
 # QuickGraph [![NuGet Status](http://img.shields.io/nuget/v/YC.QuickGraph.svg?style=flat)](https://www.nuget.org/packages/YC.QuickGraph/)
 
 QuickGraph provides generic directed/undirected graph datastructures and algorithms for .NET.
